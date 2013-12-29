@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">查开房</string>
+    <string name="warning_title">免责声明</string>
+    <string name="warning_info">
+        1.本软件数据采集于互联网.\r\n2.若因本软件产生的纠纷和其他问题,作者不负任何法律责任.\r\n3.本解释权归作者所有\r\n
+    </string>
+    <string name="agree">同意</string>
+    <string name="disagree">不同意</string>
+</resources>
