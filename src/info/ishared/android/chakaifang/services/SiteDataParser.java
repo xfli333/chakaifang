@@ -1,4 +1,4 @@
-package info.ishared.android.chakaifang.parser;
+package info.ishared.android.chakaifang.services;
 
 import info.ishared.android.chakaifang.model.UserInfo;
 

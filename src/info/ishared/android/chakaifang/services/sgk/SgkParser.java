@@ -1,6 +1,7 @@
-package info.ishared.android.chakaifang.parser;
+package info.ishared.android.chakaifang.services.sgk;
 
 import info.ishared.android.chakaifang.model.UserInfo;
+import info.ishared.android.chakaifang.services.SiteDataParser;
 import org.htmlparser.NodeFilter;
 import org.htmlparser.Parser;
 import org.htmlparser.filters.NodeClassFilter;
