@@ -1,5 +1,7 @@
 package info.ishared.android.chakaifang;
 
+import info.ishared.android.chakaifang.parser.SiteDataParser;
+import info.ishared.android.chakaifang.parser.SgkParser;
 import org.apache.commons.httpclient.HttpClient;
 import org.apache.commons.httpclient.HttpMethod;
 import org.apache.commons.httpclient.NameValuePair;
@@ -29,7 +31,9 @@ public class ChaKaiFang {
 
 //        String response = method.getResponseBodyAsString();
         String response = new String(method.getResponseBodyAsString().getBytes("iso-8859-1"),"gbk");
-        System.out.println(response);
+        SiteDataParser parser = new SgkParser();
+        parser.parserString(response);
+//        System.out.println(SimpleParser.getElementsValue(response, "a"));
     }
 
     private static HttpMethod getMethod(String url,String param) throws IOException {

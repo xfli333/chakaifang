@@ -5,6 +5,7 @@ import android.app.Dialog;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity extends Activity {
     /**
@@ -16,10 +17,18 @@ public class MainActivity extends Activity {
     private Dialog mDialog;
     private View mDialogView;
 
+    private MainController mController;
+    private TextView mTextView;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        mController = new MainController(this);
+
+
         setContentView(R.layout.main);
+        mTextView = (TextView) this.findViewById(R.id.test);
+
         mDialogView = View.inflate(this, R.layout.law_dialog, null);
 
         mAgreeBtn = (Button) mDialogView.findViewById(R.id.btn_agree);
@@ -31,6 +40,12 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View view) {
                 mDialog.dismiss();
+                try {
+                    String text = mController.queryUserInfo("杨阳");
+                    mTextView.setText(text);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
             }
         });
         mDisAgreeBtn.setOnClickListener(new View.OnClickListener() {
