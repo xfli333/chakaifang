@@ -4,12 +4,55 @@
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
         >
-    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <TextView android:id="@+id/test"
-                  android:layout_width="fill_parent"
-                  android:layout_height="wrap_content"
-                  android:text="Hello World, MainActivity"
+    <TextView android:id="@+id/query_info_txt"
+              android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              android:textColor="@android:color/white"
+              android:textSize="12dp"
+              android:text="@string/query_info_txt"
+            />
+    <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5px"
+            android:layout_gravity="center_vertical"
+            >
+        <EditText
+                android:id="@+id/input_query_key"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:paddingLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textSize="16dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:textColor="@android:color/white"
+                android:background="@drawable/edit_text_style"
+                android:layout_toLeftOf="@+id/query__btn"/>
+        <Button
+                android:id="@+id/query__btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:text="@string/query"
+                android:textColor="@android:color/white"
+
+                android:background="@drawable/button_style"
                 />
+    </RelativeLayout>
+
+
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView
+                android:id="@+id/query_data_list_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:cacheColorHint="#00000000">
+        </ListView>
     </ScrollView>
 </LinearLayout>
 

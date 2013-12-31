@@ -1,5 +1,6 @@
 package info.ishared.android.chakaifang;
 
+import android.util.Log;
 import info.ishared.android.chakaifang.http.AbstractHttpController;
 import info.ishared.android.chakaifang.model.UserInfo;
 import info.ishared.android.chakaifang.services.SiteDateGetter;
@@ -33,17 +34,15 @@ public class MainController extends AbstractHttpController {
 
     }
 
-    public String queryUserInfo(String key) throws Exception {
+    public void queryUserInfo(String key) throws Exception {
         siteDateGetter = new SgkSiteDataGetter();
         siteDateGetter.setQueryKey(key);
+        Log.d(AppConfig.TAG, key);
         String dataContent = siteDateGetter.getSiteDate();
+        Log.d(AppConfig.TAG, dataContent);
         List<UserInfo> userInfoList = parser.parserString(dataContent);
-        return userInfoList.toString();
-
+        mainActivity.updateQueryListData(userInfoList);
     }
 
 
-    private String parserHtml(String html) {
-        return SimpleParser.getElementsValue(html, "tr");
-    }
 }

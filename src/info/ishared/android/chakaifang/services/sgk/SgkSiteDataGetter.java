@@ -1,5 +1,6 @@
 package info.ishared.android.chakaifang.services.sgk;
 
+import android.util.Log;
 import info.ishared.android.chakaifang.AppConfig;
 import info.ishared.android.chakaifang.services.SiteDateGetter;
 import org.apache.commons.httpclient.HttpClient;
@@ -28,6 +29,7 @@ public class SgkSiteDataGetter implements SiteDateGetter {
         httpClient.executeMethod(method);
 
         String response = new String(method.getResponseBodyAsString().getBytes("iso-8859-1"), "gbk");
+        Log.d(AppConfig.TAG, response);
         return response;
     }
 
