@@ -17,15 +17,9 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="990be41f-2f2b-4386-b424-94ada6b634a2" name="Default" comment="query and parser&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/info/ishared/android/chakaifang/util/AlertDialogUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/info/ishared/android/chakaifang/services/sgk/KaiFang007SiteDataGetter.java" afterPath="$PROJECT_DIR$/src/info/ishared/android/chakaifang/services/sgk/KaiFang007SiteDataGetter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/info/ishared/android/chakaifang/MainActivity.java" afterPath="$PROJECT_DIR$/src/info/ishared/android/chakaifang/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/info/ishared/android/chakaifang/MainController.java" afterPath="$PROJECT_DIR$/src/info/ishared/android/chakaifang/MainController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/info/ishared/android/chakaifang/services/sgk/SgkSiteDataGetter.java" afterPath="$PROJECT_DIR$/src/info/ishared/android/chakaifang/services/sgk/SgkSiteDataGetter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/info/ishared/android/chakaifang/services/SiteDataGetter.java" afterPath="$PROJECT_DIR$/src/info/ishared/android/chakaifang/services/SiteDataGetter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+    <list default="true" id="990be41f-2f2b-4386-b424-94ada6b634a2" name="Default" comment="waiting&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chakaifang.apk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/keystore.jks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="chakaifang.iws" />
@@ -93,7 +87,7 @@
       <file leaf-file-name="MainController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="25" selection-start="1253" selection-end="1253" vertical-scroll-proportion="0.7542662" vertical-offset="0" max-vertical-offset="1198">
+            <state line="22" column="38" selection-start="834" selection-end="834" vertical-scroll-proportion="0.48445597" vertical-offset="0" max-vertical-offset="998">
               <folding />
             </state>
           </provider>
@@ -102,18 +96,18 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="146" column="31" selection-start="4508" selection-end="4508" vertical-scroll-proportion="0.0" vertical-offset="1693" max-vertical-offset="3456">
+            <state line="145" column="31" selection-start="4530" selection-end="4530" vertical-scroll-proportion="0.0" vertical-offset="1676" max-vertical-offset="3439">
               <folding>
-                <element signature="e#1421#1436#0" expanded="true" />
-                <element signature="e#3098#3263#0" expanded="true" />
-                <element signature="e#3252#3253#0" expanded="true" />
-                <element signature="e#3719#3870#0" expanded="true" />
-                <element signature="e#3859#3860#0" expanded="true" />
-                <element signature="e#4794#5264#0" expanded="true" />
-                <element signature="e#4983#4999#0" expanded="true" />
-                <element signature="e#5253#5254#0" expanded="true" />
-                <element signature="e#6431#6719#0" expanded="true" />
-                <element signature="e#6708#6709#0" expanded="true" />
+                <element signature="e#1422#1438#0" expanded="true" />
+                <element signature="e#3102#3267#0" expanded="true" />
+                <element signature="e#3256#3257#0" expanded="true" />
+                <element signature="e#3722#3874#0" expanded="true" />
+                <element signature="e#3863#3864#0" expanded="true" />
+                <element signature="e#4817#5287#0" expanded="true" />
+                <element signature="e#5006#5022#0" expanded="true" />
+                <element signature="e#5276#5277#0" expanded="true" />
+                <element signature="e#6455#6743#0" expanded="true" />
+                <element signature="e#6732#6733#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,7 +116,7 @@
       <file leaf-file-name="SiteDataGetter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/services/SiteDataGetter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="39" selection-start="261" selection-end="279" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="824">
+            <state line="13" column="40" selection-start="261" selection-end="280" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="824">
               <folding />
             </state>
           </provider>
@@ -131,10 +125,10 @@
       <file leaf-file-name="SgkSiteDataGetter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/services/sgk/SgkSiteDataGetter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="73" selection-start="1490" selection-end="1490" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1008">
+            <state line="39" column="73" selection-start="1493" selection-end="1493" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1008">
               <folding>
-                <element signature="e#1651#1652#0" expanded="true" />
-                <element signature="e#1691#1692#0" expanded="true" />
+                <element signature="e#1655#1656#0" expanded="true" />
+                <element signature="e#1695#1696#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -172,14 +166,14 @@
       <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="29" selection-start="2941" selection-end="2941" vertical-scroll-proportion="-3.0980392" vertical-offset="998" max-vertical-offset="1773">
+            <state line="68" column="33" selection-start="3033" selection-end="3033" vertical-scroll-proportion="-3.0980392" vertical-offset="998" max-vertical-offset="1773">
               <folding>
                 <element signature="e#534#558#0" expanded="true" />
                 <element signature="e#1781#1796#0" expanded="true" />
-                <element signature="e#2179#2193#0" expanded="true" />
-                <element signature="e#2419#2435#0" expanded="true" />
-                <element signature="e#2757#2774#0" expanded="true" />
-                <element signature="e#3169#3183#0" expanded="true" />
+                <element signature="e#2199#2213#0" expanded="true" />
+                <element signature="e#2459#2475#0" expanded="true" />
+                <element signature="e#2829#2846#0" expanded="true" />
+                <element signature="e#3281#3295#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -217,6 +211,11 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="F:\gitworkspace\chakaifang\keystore.jks" />
+    <option name="KEY_ALIAS" value="chakaifang" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
@@ -244,9 +243,9 @@
         <option value="$PROJECT_DIR$/src/info/ishared/android/chakaifang/services/sgk/SgkSiteDataGetter.java" />
         <option value="$PROJECT_DIR$/src/info/ishared/android/chakaifang/services/sgk/KaiFang007SiteDataGetter.java" />
         <option value="$PROJECT_DIR$/src/info/ishared/android/chakaifang/util/AlertDialogUtils.java" />
-        <option value="$PROJECT_DIR$/src/info/ishared/android/chakaifang/MainController.java" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/src/info/ishared/android/chakaifang/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/info/ishared/android/chakaifang/MainController.java" />
       </list>
     </option>
   </component>
@@ -302,190 +301,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chakaifang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chakaifang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chakaifang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chakaifang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chakaifang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chakaifang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chakaifang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chakaifang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chakaifang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chakaifang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chakaifang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chakaifang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chakaifang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chakaifang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chakaifang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-mdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chakaifang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chakaifang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-ldpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chakaifang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chakaifang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-hdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chakaifang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chakaifang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chakaifang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chakaifang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -515,6 +330,9 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.SHOW" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="ExportedModule" value="chakaifang" />
+    <property name="ExportedApkPath" value="F:\gitworkspace\chakaifang\chakaifang.apk" />
+    <property name="AndroidRunProguardForReleaseBuild" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -795,7 +613,7 @@
       <workItem from="1388307796641" duration="5277000" />
       <workItem from="1388313174399" duration="1657000" />
       <workItem from="1388750384833" duration="185000" />
-      <workItem from="1388750642483" duration="7735000" />
+      <workItem from="1388750642483" duration="7948000" />
     </task>
     <task id="LOCAL-00001" summary="layout dialog&#10;">
       <created>1388313099276</created>
@@ -809,11 +627,15 @@
       <created>1388754985416</created>
       <updated>1388754985416</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="waiting&#10;">
+      <created>1388758513963</created>
+      <updated>1388758513963</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14854000" />
+    <option name="totallyTimeSpent" value="15067000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -834,14 +656,14 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32626426" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32626426" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39314845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25755286" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25755286" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32626426" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -865,7 +687,8 @@
     <MESSAGE value="dialog" />
     <MESSAGE value="layout dialog&#10;" />
     <MESSAGE value="query and parser&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="query and parser&#10;" />
+    <MESSAGE value="waiting&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="waiting&#10;" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -887,16 +710,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="0" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="2737">
           <folding>
-            <element signature="e#1421#1436#0" expanded="true" />
-            <element signature="e#3098#3263#0" expanded="true" />
-            <element signature="e#3252#3253#0" expanded="true" />
-            <element signature="e#3719#3870#0" expanded="true" />
-            <element signature="e#3859#3860#0" expanded="true" />
-            <element signature="e#4794#5264#0" expanded="true" />
-            <element signature="e#4983#4999#0" expanded="true" />
-            <element signature="e#5253#5254#0" expanded="true" />
-            <element signature="e#6431#6719#0" expanded="true" />
-            <element signature="e#6708#6709#0" expanded="true" />
+            <element signature="e#1422#1438#0" expanded="true" />
+            <element signature="e#3102#3267#0" expanded="true" />
+            <element signature="e#3256#3257#0" expanded="true" />
+            <element signature="e#3722#3874#0" expanded="true" />
+            <element signature="e#3863#3864#0" expanded="true" />
+            <element signature="e#4817#5287#0" expanded="true" />
+            <element signature="e#5006#5022#0" expanded="true" />
+            <element signature="e#5276#5277#0" expanded="true" />
+            <element signature="e#6455#6743#0" expanded="true" />
+            <element signature="e#6732#6733#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -965,16 +788,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="0" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="935">
           <folding>
-            <element signature="e#1421#1436#0" expanded="true" />
-            <element signature="e#3098#3263#0" expanded="true" />
-            <element signature="e#3252#3253#0" expanded="true" />
-            <element signature="e#3719#3870#0" expanded="true" />
-            <element signature="e#3859#3860#0" expanded="true" />
-            <element signature="e#4794#5264#0" expanded="true" />
-            <element signature="e#4983#4999#0" expanded="true" />
-            <element signature="e#5253#5254#0" expanded="true" />
-            <element signature="e#6431#6719#0" expanded="true" />
-            <element signature="e#6708#6709#0" expanded="true" />
+            <element signature="e#1422#1438#0" expanded="true" />
+            <element signature="e#3102#3267#0" expanded="true" />
+            <element signature="e#3256#3257#0" expanded="true" />
+            <element signature="e#3722#3874#0" expanded="true" />
+            <element signature="e#3863#3864#0" expanded="true" />
+            <element signature="e#4817#5287#0" expanded="true" />
+            <element signature="e#5006#5022#0" expanded="true" />
+            <element signature="e#5276#5277#0" expanded="true" />
+            <element signature="e#6455#6743#0" expanded="true" />
+            <element signature="e#6732#6733#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1036,16 +859,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="13" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="935">
           <folding>
-            <element signature="e#1421#1436#0" expanded="true" />
-            <element signature="e#3098#3263#0" expanded="true" />
-            <element signature="e#3252#3253#0" expanded="true" />
-            <element signature="e#3719#3870#0" expanded="true" />
-            <element signature="e#3859#3860#0" expanded="true" />
-            <element signature="e#4794#5264#0" expanded="true" />
-            <element signature="e#4983#4999#0" expanded="true" />
-            <element signature="e#5253#5254#0" expanded="true" />
-            <element signature="e#6431#6719#0" expanded="true" />
-            <element signature="e#6708#6709#0" expanded="true" />
+            <element signature="e#1422#1438#0" expanded="true" />
+            <element signature="e#3102#3267#0" expanded="true" />
+            <element signature="e#3256#3257#0" expanded="true" />
+            <element signature="e#3722#3874#0" expanded="true" />
+            <element signature="e#3863#3864#0" expanded="true" />
+            <element signature="e#4817#5287#0" expanded="true" />
+            <element signature="e#5006#5022#0" expanded="true" />
+            <element signature="e#5276#5277#0" expanded="true" />
+            <element signature="e#6455#6743#0" expanded="true" />
+            <element signature="e#6732#6733#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1182,14 +1005,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="29" selection-start="2941" selection-end="2941" vertical-scroll-proportion="-3.0980392" vertical-offset="998" max-vertical-offset="1773">
+        <state line="68" column="33" selection-start="3033" selection-end="3033" vertical-scroll-proportion="-3.0980392" vertical-offset="998" max-vertical-offset="1773">
           <folding>
             <element signature="e#534#558#0" expanded="true" />
             <element signature="e#1781#1796#0" expanded="true" />
-            <element signature="e#2179#2193#0" expanded="true" />
-            <element signature="e#2419#2435#0" expanded="true" />
-            <element signature="e#2757#2774#0" expanded="true" />
-            <element signature="e#3169#3183#0" expanded="true" />
+            <element signature="e#2199#2213#0" expanded="true" />
+            <element signature="e#2459#2475#0" expanded="true" />
+            <element signature="e#2829#2846#0" expanded="true" />
+            <element signature="e#3281#3295#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1206,7 +1029,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/services/SiteDataGetter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="39" selection-start="261" selection-end="279" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="824">
+        <state line="13" column="40" selection-start="261" selection-end="280" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="824">
           <folding />
         </state>
       </provider>
@@ -1236,35 +1059,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/services/sgk/SgkSiteDataGetter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="73" selection-start="1490" selection-end="1490" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1249">
+        <state line="39" column="73" selection-start="1493" selection-end="1493" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1008">
           <folding>
-            <element signature="e#1651#1652#0" expanded="true" />
-            <element signature="e#1691#1692#0" expanded="true" />
+            <element signature="e#1655#1656#0" expanded="true" />
+            <element signature="e#1695#1696#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="146" column="31" selection-start="4508" selection-end="4508" vertical-scroll-proportion="0.0" vertical-offset="1693" max-vertical-offset="3456">
+        <state line="145" column="31" selection-start="4530" selection-end="4530" vertical-scroll-proportion="0.0" vertical-offset="1676" max-vertical-offset="3439">
           <folding>
-            <element signature="e#1421#1436#0" expanded="true" />
-            <element signature="e#3098#3263#0" expanded="true" />
-            <element signature="e#3252#3253#0" expanded="true" />
-            <element signature="e#3719#3870#0" expanded="true" />
-            <element signature="e#3859#3860#0" expanded="true" />
-            <element signature="e#4794#5264#0" expanded="true" />
-            <element signature="e#4983#4999#0" expanded="true" />
-            <element signature="e#5253#5254#0" expanded="true" />
-            <element signature="e#6431#6719#0" expanded="true" />
-            <element signature="e#6708#6709#0" expanded="true" />
+            <element signature="e#1422#1438#0" expanded="true" />
+            <element signature="e#3102#3267#0" expanded="true" />
+            <element signature="e#3256#3257#0" expanded="true" />
+            <element signature="e#3722#3874#0" expanded="true" />
+            <element signature="e#3863#3864#0" expanded="true" />
+            <element signature="e#4817#5287#0" expanded="true" />
+            <element signature="e#5006#5022#0" expanded="true" />
+            <element signature="e#5276#5277#0" expanded="true" />
+            <element signature="e#6455#6743#0" expanded="true" />
+            <element signature="e#6732#6733#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="25" selection-start="1253" selection-end="1253" vertical-scroll-proportion="0.7542662" vertical-offset="0" max-vertical-offset="1198">
+        <state line="22" column="38" selection-start="834" selection-end="834" vertical-scroll-proportion="0.48445597" vertical-offset="0" max-vertical-offset="998">
           <folding />
         </state>
       </provider>
