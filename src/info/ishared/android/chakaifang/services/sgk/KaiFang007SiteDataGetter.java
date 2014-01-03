@@ -10,6 +10,7 @@ import org.apache.commons.httpclient.methods.GetMethod;
 import org.apache.commons.httpclient.methods.PostMethod;
 
 import java.io.IOException;
+import java.util.Map;
 
 /**
  * Created with IntelliJ IDEA.
@@ -20,7 +21,7 @@ import java.io.IOException;
 public class KaiFang007SiteDataGetter implements SiteDataGetter {
     public static final String QUERY_URL = "http://www.kaifang007.com";
     //    http://www.kaifang007.com/?keyword=%E8%B0%A2%E7%BA%A2%E9%9C%9E&dq=&xb=&age=&page=1
-    private String queryKey;
+    private Map<String, String> queryKey;
 
     @Override
     public String getSiteData() throws Exception {
@@ -42,13 +43,13 @@ public class KaiFang007SiteDataGetter implements SiteDataGetter {
         return get;
     }
 
-    private HttpMethod postMethod(String url, String key) throws IOException {
+    private HttpMethod postMethod(String url, Map<String, String> queryKeyMap) throws IOException {
         PostMethod post = new PostMethod(url);
         post.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;charset=utf-8");
         NameValuePair[] param = {
-                new NameValuePair("keyword", "杨阳"),
-                new NameValuePair("dq", "51"),
-                new NameValuePair("xb", "F")
+                new NameValuePair("keyword", queryKeyMap.get("keyword")),
+                new NameValuePair("page", queryKeyMap.get("page")),
+                new NameValuePair("xb", queryKeyMap.get("xb"))
         };
         post.setRequestBody(param);
         post.releaseConnection();
@@ -56,7 +57,7 @@ public class KaiFang007SiteDataGetter implements SiteDataGetter {
     }
 
     @Override
-    public void setQueryKey(String queryKey) {
+    public void setQueryKey(Map<String, String> queryKey) {
         this.queryKey = queryKey;
     }
 }

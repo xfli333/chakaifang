@@ -1,5 +1,7 @@
 package info.ishared.android.chakaifang.services;
 
+import java.util.Map;
+
 /**
  * Created with IntelliJ IDEA.
  * User: Seven
@@ -9,5 +11,5 @@ package info.ishared.android.chakaifang.services;
 public interface SiteDataGetter {
     String getSiteData() throws Exception;
 
-    void setQueryKey(String queryKey);
+    void setQueryKey(Map<String, String> queryKey);
 }

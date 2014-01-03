@@ -6,15 +6,18 @@ import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.Message;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.*;
 import info.ishared.android.chakaifang.model.UserInfo;
+import info.ishared.android.chakaifang.util.AlertDialogUtils;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class MainActivity extends Activity {
     /**
@@ -24,6 +27,11 @@ public class MainActivity extends Activity {
     private Button mAgreeBtn;
     private Button mDisAgreeBtn;
     private Button mQuery;
+    private Button mNextBtn;
+    private Button mPreviewBtn;
+
+    private CheckBox mMaleCheckBox;
+    private CheckBox mFemaleCheckBox;
 
     private EditText mEditText;
 
@@ -38,6 +46,8 @@ public class MainActivity extends Activity {
 
     private ProgressDialog mProgressDialog;
     private static final int DIALOG_PROGRESS = 11;
+    private int page = 1;
+    private Map<String, String> parameters = new HashMap<String, String>();
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -55,6 +65,12 @@ public class MainActivity extends Activity {
         mAgreeBtn = (Button) mDialogView.findViewById(R.id.btn_agree);
         mDisAgreeBtn = (Button) mDialogView.findViewById(R.id.btn_disagree);
         mQuery = (Button) this.findViewById(R.id.query__btn);
+        mNextBtn = (Button) this.findViewById(R.id.next__btn);
+        mPreviewBtn = (Button) this.findViewById(R.id.preview__btn);
+
+        mMaleCheckBox = (CheckBox) this.findViewById(R.id.male_checkbox);
+        mFemaleCheckBox = (CheckBox) this.findViewById(R.id.female_checkbox);
+        initWaitingDialog();
 
         showLawDialog();
 
@@ -75,23 +91,65 @@ public class MainActivity extends Activity {
         mQuery.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                showDialog(DIALOG_PROGRESS);
-                String key = mEditText.getText().toString().trim();
-                try {
-                    mController.queryUserInfo(key);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                } finally {
-//                    hideProgressDialog();
-                }
+                query();
             }
         });
+
+        mPreviewBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                page--;
+                query();
+            }
+        });
+
+        mNextBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                page++;
+                query();
+            }
+        });
+
 
         listAdapter = new SimpleAdapter(this, listDate, R.layout.user_list_view_item,
                 new String[]{"item_data_info"},
                 new int[]{R.id.item_data_info});
         mListView.setAdapter(listAdapter);
-        mHandler = new Handler();
+        mHandler = new Handler() {
+            @Override
+            public void handleMessage(Message msg) {
+                hideProgressDialog();
+            }
+        };
+    }
+
+
+    private void query() {
+        showWaitingDialog();
+        String key = mEditText.getText().toString().trim();
+        if (key.equals("")) {
+            AlertDialogUtils.showConfirmDiaLog(this, "还是填点什么再查询吧....");
+            return;
+        }
+
+        String sex = "";
+        if (mFemaleCheckBox.isChecked() && !mMaleCheckBox.isChecked()) {
+            sex = "F";
+        } else if (!mFemaleCheckBox.isChecked() && mMaleCheckBox.isChecked()) {
+            sex = "M";
+        }
+        parameters.put("keyword", key);
+        parameters.put("xb", sex);
+        parameters.put("page", page + "");
+        try {
+            mController.queryUserInfo(parameters);
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            mHandler.sendEmptyMessage(0);
+        }
+
     }
 
 
@@ -104,10 +162,9 @@ public class MainActivity extends Activity {
                     HashMap<String, String> map = new HashMap<String, String>();
                     map.put("item_data_info", formatUserInfoToListView(userInfo));
                     listDate.add(map);
-                    Log.d(AppConfig.TAG, "finfifiififififififififi========");
                 }
-
                 listAdapter.notifyDataSetChanged();
+                mHandler.sendEmptyMessage(0);
             }
         });
     }
@@ -127,41 +184,33 @@ public class MainActivity extends Activity {
     }
 
     private void showLawDialog() {
-
-
         mDialog = new Dialog(MainActivity.this, R.style.dialog);
         mDialog.setContentView(mDialogView);
         mDialog.setCancelable(false);
         mDialog.show();
     }
 
+    private void initWaitingDialog() {
+        mProgressDialog = new ProgressDialog(this);
+        mProgressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+        mProgressDialog.setMessage("正在处理，请等待......");
+        mProgressDialog.setCancelable(false);
+        mProgressDialog.setOnKeyListener(new DialogInterface.OnKeyListener() {
+            public boolean onKey(DialogInterface dialog, int keyCode, KeyEvent event) {
+                if (keyCode == KeyEvent.KEYCODE_SEARCH) {
+                    return true;
+                }
+                return false;
+            }
+        });
+    }
 
-    @Override
-    protected Dialog onCreateDialog(int id) {
-        switch (id) {
-            case DIALOG_PROGRESS:
-                mProgressDialog = new ProgressDialog(this);
-                mProgressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
-                mProgressDialog.setMessage("正在处理，请等待......");
-                mProgressDialog.setCancelable(false);
-                mProgressDialog.setOnKeyListener(new DialogInterface.OnKeyListener() {
-                    public boolean onKey(DialogInterface dialog, int keyCode, KeyEvent event) {
-                        if (keyCode == KeyEvent.KEYCODE_SEARCH) {
-                            return true;
-                        }
-                        return false;
-                    }
-                });
-                return mDialog;
-            default:
-                return null;
-        }
+    public void showWaitingDialog() {
+        mProgressDialog.show();
     }
 
     public void hideProgressDialog() {
-        if (mProgressDialog != null) {
-            removeDialog(DIALOG_PROGRESS);
-        }
+        mProgressDialog.dismiss();
     }
 
 }

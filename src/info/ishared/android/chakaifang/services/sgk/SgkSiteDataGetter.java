@@ -9,6 +9,7 @@ import org.apache.commons.httpclient.NameValuePair;
 import org.apache.commons.httpclient.methods.PostMethod;
 
 import java.io.IOException;
+import java.util.Map;
 
 /**
  * Created with IntelliJ IDEA.
@@ -18,7 +19,7 @@ import java.io.IOException;
  */
 public class SgkSiteDataGetter implements SiteDataGetter {
     public static final String QUERY_URL = "http://594sgk.com";
-    private String queryKey;
+    private Map<String, String> queryKey;
 
     @Override
     public String getSiteData() throws Exception {
@@ -33,16 +34,16 @@ public class SgkSiteDataGetter implements SiteDataGetter {
         return response;
     }
 
-    private HttpMethod postMethod(String url, String key) throws IOException {
+    private HttpMethod postMethod(String url, Map<String, String> queryKey) throws IOException {
         PostMethod post = new PostMethod(url);
         post.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;charset=gbk");
-        NameValuePair[] param = {new NameValuePair("wd", key)};
+        NameValuePair[] param = {new NameValuePair("wd", queryKey.get("wd"))};
         post.setRequestBody(param);
         post.releaseConnection();
         return post;
     }
 
-    public void setQueryKey(String queryKey) {
+    public void setQueryKey(Map<String, String> queryKey) {
         this.queryKey = queryKey;
     }
 }

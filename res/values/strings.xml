@@ -7,6 +7,10 @@
     </string>
     <string name="agree">同意</string>
     <string name="disagree">不同意</string>
-    <string name="query_info_txt">请用姓名或身份证号码或电话进行查询(越准确越迅速)</string>
+    <string name="query_info_txt">请用姓名或身份证号码或生日进行查询(越准确越迅速)</string>
     <string name="query">查询</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="preview">上一页</string>
+    <string name="next">下一页</string>
 </resources>

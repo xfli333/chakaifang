@@ -11,6 +11,7 @@ import info.ishared.android.chakaifang.services.SiteDataParser;
 import info.ishared.android.chakaifang.services.sgk.SgkSiteDataGetter;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created with IntelliJ IDEA.
@@ -31,10 +32,10 @@ public class MainController extends AbstractHttpController {
 
     }
 
-    public void queryUserInfo(String key) throws Exception {
+    public void queryUserInfo(Map<String, String> parameters) throws Exception {
+
         siteDataGetter = new KaiFang007SiteDataGetter();
-        key = "keyword=杨阳&dq=51&xb=F";
-        siteDataGetter.setQueryKey(key);
+        siteDataGetter.setQueryKey(parameters);
 
         String dataContent = siteDataGetter.getSiteData();
         Log.d(AppConfig.TAG, dataContent);
