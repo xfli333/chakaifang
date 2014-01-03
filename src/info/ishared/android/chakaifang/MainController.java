@@ -3,16 +3,13 @@ package info.ishared.android.chakaifang;
 import android.util.Log;
 import info.ishared.android.chakaifang.http.AbstractHttpController;
 import info.ishared.android.chakaifang.model.UserInfo;
-import info.ishared.android.chakaifang.services.SiteDateGetter;
+import info.ishared.android.chakaifang.services.SiteDataGetter;
+import info.ishared.android.chakaifang.services.sgk.KaiFang007Parser;
+import info.ishared.android.chakaifang.services.sgk.KaiFang007SiteDataGetter;
 import info.ishared.android.chakaifang.services.sgk.SgkParser;
 import info.ishared.android.chakaifang.services.SiteDataParser;
 import info.ishared.android.chakaifang.services.sgk.SgkSiteDataGetter;
-import org.apache.commons.httpclient.HttpClient;
-import org.apache.commons.httpclient.HttpMethod;
-import org.apache.commons.httpclient.NameValuePair;
-import org.apache.commons.httpclient.methods.PostMethod;
 
-import java.io.IOException;
 import java.util.List;
 
 /**
@@ -24,21 +21,22 @@ import java.util.List;
 public class MainController extends AbstractHttpController {
     private MainActivity mainActivity;
     private SiteDataParser parser;
-    private SiteDateGetter siteDateGetter;
+    private SiteDataGetter siteDataGetter;
 
     public MainController(MainActivity mainActivity) {
         super(String.class);
         this.mainActivity = mainActivity;
-        parser = new SgkParser();
+        parser = new KaiFang007Parser();
 
 
     }
 
     public void queryUserInfo(String key) throws Exception {
-        siteDateGetter = new SgkSiteDataGetter();
-        siteDateGetter.setQueryKey(key);
+        siteDataGetter = new KaiFang007SiteDataGetter();
+        key = "keyword=杨阳&dq=51&xb=F";
+        siteDataGetter.setQueryKey(key);
         Log.d(AppConfig.TAG, key);
-        String dataContent = siteDateGetter.getSiteDate();
+        String dataContent = siteDataGetter.getSiteData();
         Log.d(AppConfig.TAG, dataContent);
         List<UserInfo> userInfoList = parser.parserString(dataContent);
         mainActivity.updateQueryListData(userInfoList);

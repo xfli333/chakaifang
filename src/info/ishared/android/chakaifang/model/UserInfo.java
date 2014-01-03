@@ -4,6 +4,8 @@ package info.ishared.android.chakaifang.model;
 import java.io.Serializable;
 
 public class UserInfo implements Serializable {
+    private String id;
+
     private String userName;
     private String idCardNo;
     private String birthDay;
@@ -11,6 +13,9 @@ public class UserInfo implements Serializable {
     private String cellPhone;
     private String address;
     private String checkInDate;
+
+    private String email;
+    private String homeAddress;
 
     public String getCheckInDate() {
         return checkInDate;
@@ -68,16 +73,44 @@ public class UserInfo implements Serializable {
         this.userName = userName;
     }
 
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getHomeAddress() {
+        return homeAddress;
+    }
+
+    public void setHomeAddress(String homeAddress) {
+        this.homeAddress = homeAddress;
+    }
+
+
     @Override
     public String toString() {
         return "UserInfo{" +
-                "userName='" + userName + '\'' +
+                "id='" + id + '\'' +
+                ", userName='" + userName + '\'' +
                 ", idCardNo='" + idCardNo + '\'' +
                 ", birthDay='" + birthDay + '\'' +
                 ", phoneNumber='" + phoneNumber + '\'' +
                 ", cellPhone='" + cellPhone + '\'' +
                 ", address='" + address + '\'' +
                 ", checkInDate='" + checkInDate + '\'' +
+                ", email='" + email + '\'' +
+                ", homeAddress='" + homeAddress + '\'' +
                 '}';
     }
 }
