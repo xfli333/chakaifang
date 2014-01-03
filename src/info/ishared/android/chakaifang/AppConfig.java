@@ -8,5 +8,6 @@ package info.ishared.android.chakaifang;
  */
 public class AppConfig {
     public static final String TAG = "CHAKAIFANG";
-    public static final String QUERY_URL = "http://594sgk.com";
+
+    //http://www.kaifang007.com/ 96.127.145.216
 }
