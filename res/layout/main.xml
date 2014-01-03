@@ -44,15 +44,12 @@
                 />
     </RelativeLayout>
 
-
-    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <ListView
-                android:id="@+id/query_data_list_view"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:cacheColorHint="#00000000">
-        </ListView>
-    </ScrollView>
+    <ListView
+            android:id="@+id/query_data_list_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:cacheColorHint="#00000000">
+    </ListView>
 </LinearLayout>
 

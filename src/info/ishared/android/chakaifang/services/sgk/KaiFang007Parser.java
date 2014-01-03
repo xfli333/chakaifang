@@ -38,7 +38,6 @@ public class KaiFang007Parser implements SiteDataParser {
 
         Parser parser = Parser.createParser(html, "utf-8");
         NodeFilter divFilter = new NodeClassFilter(TableRow.class);
-        String infoKey = "";
         if ("td".equals(tag)) {
             divFilter = new NodeClassFilter(TableColumn.class);
         }
@@ -52,11 +51,9 @@ public class KaiFang007Parser implements SiteDataParser {
                 String divInfo = node.getText();
                 if ("tr".equals(tag) && (divInfo.equals("tr class=\"Even\"") || divInfo.equals("tr class=\"Odd\""))) {
                     content = node.toHtml();
-                    Log.d(AppConfig.TAG, content);
                     userContents.add(content);
-                } else {
+                } else if (divInfo.startsWith("td")) {
                     content = node.toHtml();
-                    Log.d(AppConfig.TAG, content);
                     userContents.add(content);
                 }
             }
@@ -69,13 +66,15 @@ public class KaiFang007Parser implements SiteDataParser {
     private UserInfo createUserFromTrContent(String trContent) {
         UserInfo userInfo = new UserInfo();
         List<String> userField = this.getUserContents(trContent, "td");
-        userInfo.setUserName(userField.get(0));
-        userInfo.setIdCardNo(userField.get(1));
-        userInfo.setBirthDay(userField.get(2));
-        userInfo.setPhoneNumber(userField.get(3));
-        userInfo.setCellPhone(userField.get(4));
-        userInfo.setAddress(userField.get(5));
-        userInfo.setCheckInDate(userField.get(6));
+        userInfo.setUserName(userField.get(0).substring(4, userField.get(0).length() - 5));
+        userInfo.setSex(userField.get(1).indexOf("female.png") != -1 ? "女" : "男");
+        userInfo.setIdCardNo(userField.get(5).substring(4, userField.get(5).length() - 5));
+        userInfo.setBirthDay(userField.get(3).substring(19, userField.get(3).length() - 5));
+        userInfo.setPhoneNumber(userField.get(2).substring(19, userField.get(2).length() - 5));
+        userInfo.setCellPhone(userField.get(6).substring(4, userField.get(6).length() - 5));
+        userInfo.setEmail(userField.get(7).substring(4, userField.get(7).length() - 5));
+        userInfo.setAddress(userField.get(8).substring(4, userField.get(8).length() - 5).replaceAll("&nbsp;", ""));
+        userInfo.setCheckInDate(userField.get(9).substring(19, userField.get(9).length() - 5));
         return userInfo;
     }
 

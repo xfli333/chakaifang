@@ -35,10 +35,11 @@ public class MainController extends AbstractHttpController {
         siteDataGetter = new KaiFang007SiteDataGetter();
         key = "keyword=杨阳&dq=51&xb=F";
         siteDataGetter.setQueryKey(key);
-        Log.d(AppConfig.TAG, key);
+
         String dataContent = siteDataGetter.getSiteData();
         Log.d(AppConfig.TAG, dataContent);
         List<UserInfo> userInfoList = parser.parserString(dataContent);
+        Log.d(AppConfig.TAG, userInfoList.size() + "");
         mainActivity.updateQueryListData(userInfoList);
     }
 

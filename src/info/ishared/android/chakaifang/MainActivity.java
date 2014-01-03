@@ -50,6 +50,7 @@ public class MainActivity extends Activity {
         mDialogView = View.inflate(this, R.layout.law_dialog, null);
 
         mEditText = (EditText) this.findViewById(R.id.input_query_key);
+        mListView = (ListView) this.findViewById(R.id.query_data_list_view);
 
         mAgreeBtn = (Button) mDialogView.findViewById(R.id.btn_agree);
         mDisAgreeBtn = (Button) mDialogView.findViewById(R.id.btn_disagree);
@@ -89,7 +90,7 @@ public class MainActivity extends Activity {
         listAdapter = new SimpleAdapter(this, listDate, R.layout.user_list_view_item,
                 new String[]{"item_data_info"},
                 new int[]{R.id.item_data_info});
-
+        mListView.setAdapter(listAdapter);
         mHandler = new Handler();
     }
 
@@ -103,8 +104,9 @@ public class MainActivity extends Activity {
                     HashMap<String, String> map = new HashMap<String, String>();
                     map.put("item_data_info", formatUserInfoToListView(userInfo));
                     listDate.add(map);
+                    Log.d(AppConfig.TAG, "finfifiififififififififi========");
                 }
-                Log.d(AppConfig.TAG, "finfifiififififififififi========");
+
                 listAdapter.notifyDataSetChanged();
             }
         });
@@ -112,8 +114,14 @@ public class MainActivity extends Activity {
 
 
     private String formatUserInfoToListView(UserInfo userInfo) {
-        String dataStr = "姓名:" + userInfo.getUserName() + "\t 身份证号:" + userInfo.getIdCardNo() + "\t 开房日期:" + userInfo.getCheckInDate() + "\r\b";
-        dataStr += "电话:" + userInfo.getPhoneNumber() + "\t 手机:" + userInfo.getCellPhone() + "\r\n";
+        String dataStr = "姓名:" + userInfo.getUserName() + "\r\n";
+        dataStr += "性别:" + userInfo.getSex() + "\r\n";
+        dataStr += "身份证号:" + userInfo.getIdCardNo() + "\r\n";
+        dataStr += "出生日期:" + userInfo.getBirthDay() + "\r\n";
+        dataStr += "年龄:" + userInfo.getPhoneNumber() + "\r\n";
+        dataStr += "开房日期:" + userInfo.getCheckInDate() + "\r\n";
+        dataStr += "手机:" + userInfo.getCellPhone() + "\r\n";
+        dataStr += "电子邮件:" + userInfo.getEmail() + "\r\n";
         dataStr += "地址:" + userInfo.getAddress();
         return dataStr;
     }

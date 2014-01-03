@@ -7,6 +7,7 @@ public class UserInfo implements Serializable {
     private String id;
 
     private String userName;
+    private String sex;
     private String idCardNo;
     private String birthDay;
     private String phoneNumber;
@@ -97,6 +98,13 @@ public class UserInfo implements Serializable {
         this.homeAddress = homeAddress;
     }
 
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
 
     @Override
     public String toString() {
