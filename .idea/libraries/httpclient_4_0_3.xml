@@ -3,6 +3,11 @@
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/libs/httpclient-4.0.3.jar!/" />
       <root url="jar://$PROJECT_DIR$/libs/commons-httpclient-3.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/commons-io.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/commons-codec-1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/htmllexer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/htmlparser.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
