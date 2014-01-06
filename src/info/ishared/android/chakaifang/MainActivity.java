@@ -13,6 +13,7 @@ import android.view.View;
 import android.widget.*;
 import info.ishared.android.chakaifang.model.UserInfo;
 import info.ishared.android.chakaifang.util.AlertDialogUtils;
+import info.ishared.android.chakaifang.util.DataMap;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -41,12 +42,17 @@ public class MainActivity extends Activity {
     private ListView mListView;
     private List<HashMap<String, String>> listDate = new ArrayList<HashMap<String, String>>();
 
+    private Spinner mSpinner;
+    private List<String> selectData = new ArrayList<String>();
+    private ArrayAdapter<String> spinnerAdapter;
+
     private MainController mController;
     private Handler mHandler;
 
     private ProgressDialog mProgressDialog;
     private static final int DIALOG_PROGRESS = 11;
     private int page = 1;
+    private String dq = "";
     private Map<String, String> parameters = new HashMap<String, String>();
 
     @Override
@@ -72,6 +78,8 @@ public class MainActivity extends Activity {
         mFemaleCheckBox = (CheckBox) this.findViewById(R.id.female_checkbox);
         initWaitingDialog();
 
+        initAreaSpinner();
+
         showLawDialog();
 
         mAgreeBtn.setOnClickListener(new View.OnClickListener() {
@@ -91,6 +99,7 @@ public class MainActivity extends Activity {
         mQuery.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                page = 1;
                 query();
             }
         });
@@ -124,6 +133,25 @@ public class MainActivity extends Activity {
         };
     }
 
+    private void initAreaSpinner() {
+        selectData.addAll(DataMap.areaList);
+        mSpinner = (Spinner) findViewById(R.id.area_dropdown);
+        spinnerAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, selectData);
+        spinnerAdapter.setDropDownViewResource(android.R.layout.select_dialog_item);
+        mSpinner.setAdapter(spinnerAdapter);
+        mSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                dq = DataMap.areaMap.get(selectData.get(i));
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
+    }
+
 
     private void query() {
         showWaitingDialog();
@@ -142,6 +170,7 @@ public class MainActivity extends Activity {
         parameters.put("keyword", key);
         parameters.put("xb", sex);
         parameters.put("page", page + "");
+        parameters.put("dq", dq);
         try {
             mController.queryUserInfo(parameters);
         } catch (Exception e) {
@@ -155,6 +184,7 @@ public class MainActivity extends Activity {
 
     public void updateQueryListData(final List<UserInfo> userInfoList) {
         listDate.clear();
+
         mHandler.post(new Runnable() {
             @Override
             public void run() {
@@ -164,6 +194,7 @@ public class MainActivity extends Activity {
                     listDate.add(map);
                 }
                 listAdapter.notifyDataSetChanged();
+                mListView.smoothScrollToPosition(0);
                 mHandler.sendEmptyMessage(0);
             }
         });

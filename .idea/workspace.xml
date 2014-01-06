@@ -18,8 +18,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="990be41f-2f2b-4386-b424-94ada6b634a2" name="Default" comment="waiting&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chakaifang.apk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/keystore.jks" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/info/ishared/android/chakaifang/util/DataMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/info/ishared/android/chakaifang/services/sgk/KaiFang007SiteDataGetter.java" afterPath="$PROJECT_DIR$/src/info/ishared/android/chakaifang/services/sgk/KaiFang007SiteDataGetter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/info/ishared/android/chakaifang/MainActivity.java" afterPath="$PROJECT_DIR$/src/info/ishared/android/chakaifang/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="chakaifang.iws" />
@@ -84,30 +88,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainController.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MainController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="38" selection-start="834" selection-end="834" vertical-scroll-proportion="0.48445597" vertical-offset="0" max-vertical-offset="998">
+            <state line="41" column="0" selection-start="1380" selection-end="1380" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="947">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="145" column="31" selection-start="4530" selection-end="4530" vertical-scroll-proportion="0.0" vertical-offset="1676" max-vertical-offset="3439">
+            <state line="15" column="0" selection-start="476" selection-end="476" vertical-scroll-proportion="0.33333334" vertical-offset="74" max-vertical-offset="3783">
               <folding>
-                <element signature="e#1422#1438#0" expanded="true" />
-                <element signature="e#3102#3267#0" expanded="true" />
-                <element signature="e#3256#3257#0" expanded="true" />
-                <element signature="e#3722#3874#0" expanded="true" />
-                <element signature="e#3863#3864#0" expanded="true" />
-                <element signature="e#4817#5287#0" expanded="true" />
-                <element signature="e#5006#5022#0" expanded="true" />
-                <element signature="e#5276#5277#0" expanded="true" />
-                <element signature="e#6455#6743#0" expanded="true" />
-                <element signature="e#6732#6733#0" expanded="true" />
+                <element signature="e#1308#1316#0" expanded="true" />
+                <element signature="e#3165#3335#0" expanded="true" />
+                <element signature="e#3324#3325#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,7 +113,7 @@
       <file leaf-file-name="SiteDataGetter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/services/SiteDataGetter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="40" selection-start="261" selection-end="280" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="824">
+            <state line="13" column="40" selection-start="261" selection-end="280" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
@@ -125,11 +122,8 @@
       <file leaf-file-name="SgkSiteDataGetter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/services/sgk/SgkSiteDataGetter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="73" selection-start="1493" selection-end="1493" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1008">
-              <folding>
-                <element signature="e#1655#1656#0" expanded="true" />
-                <element signature="e#1695#1696#0" expanded="true" />
-              </folding>
+            <state line="39" column="73" selection-start="1493" selection-end="1493" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="765">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -137,7 +131,7 @@
       <file leaf-file-name="KaiFang007SiteDataGetter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/services/sgk/KaiFang007SiteDataGetter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="39" selection-start="700" selection-end="700" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1195">
+            <state line="51" column="59" selection-start="1955" selection-end="1955" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="1220">
               <folding />
             </state>
           </provider>
@@ -146,18 +140,18 @@
       <file leaf-file-name="SiteDataParser.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/services/SiteDataParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="19" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="549">
+            <state line="13" column="19" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="898">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlertDialogUtils.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/util/AlertDialogUtils.java">
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="957">
+            <state line="12" column="18" selection-start="498" selection-end="498" vertical-scroll-proportion="-7.2" vertical-offset="0" max-vertical-offset="903">
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1388987869000" expanded="true" signature="170:259" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -165,40 +159,40 @@
       </file>
       <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="33" selection-start="3033" selection-end="3033" vertical-scroll-proportion="-3.0980392" vertical-offset="998" max-vertical-offset="1773">
+            <state line="88" column="0" selection-start="3933" selection-end="3933" vertical-scroll-proportion="-3.75" vertical-offset="1125" max-vertical-offset="1855">
               <folding>
                 <element signature="e#534#558#0" expanded="true" />
                 <element signature="e#1781#1796#0" expanded="true" />
                 <element signature="e#2199#2213#0" expanded="true" />
                 <element signature="e#2459#2475#0" expanded="true" />
-                <element signature="e#2829#2846#0" expanded="true" />
-                <element signature="e#3281#3295#0" expanded="true" />
+                <element signature="e#3408#3425#0" expanded="true" />
+                <element signature="e#3861#3875#0" expanded="true" />
               </folding>
             </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="KaiFang007Parser.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/services/sgk/KaiFang007Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="0" selection-start="2398" selection-end="2398" vertical-scroll-proportion="0.0" vertical-offset="701" max-vertical-offset="1943">
+            <state line="38" column="0" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1817">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserInfo.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/model/UserInfo.java">
+      <file leaf-file-name="DataMap.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/util/DataMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="28" selection-start="2012" selection-end="2012" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="1997">
+            <state line="88" column="27" selection-start="2624" selection-end="2624" vertical-scroll-proportion="-10.481482" vertical-offset="754" max-vertical-offset="1796">
               <folding>
-                <element signature="e#2037#2038#0" expanded="true" />
-                <element signature="e#2075#2076#0" expanded="true" />
-                <element signature="e#2105#2106#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#314#329#0" expanded="true" />
+                <element signature="e#388#396#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -238,22 +232,24 @@
         <option value="$PROJECT_DIR$/res/layout/user_list_view_item.xml" />
         <option value="$PROJECT_DIR$/src/info/ishared/android/chakaifang/model/UserInfo.java" />
         <option value="$PROJECT_DIR$/src/info/ishared/android/chakaifang/services/sgk/KaiFang007Parser.java" />
-        <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/info/ishared/android/chakaifang/services/SiteDataGetter.java" />
         <option value="$PROJECT_DIR$/src/info/ishared/android/chakaifang/services/sgk/SgkSiteDataGetter.java" />
-        <option value="$PROJECT_DIR$/src/info/ishared/android/chakaifang/services/sgk/KaiFang007SiteDataGetter.java" />
         <option value="$PROJECT_DIR$/src/info/ishared/android/chakaifang/util/AlertDialogUtils.java" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/src/info/ishared/android/chakaifang/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/info/ishared/android/chakaifang/MainController.java" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/info/ishared/android/chakaifang/util/AreaMap.java" />
+        <option value="$PROJECT_DIR$/src/info/ishared/android/chakaifang/services/sgk/KaiFang007SiteDataGetter.java" />
+        <option value="$PROJECT_DIR$/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/src/info/ishared/android/chakaifang/util/DataMap.java" />
+        <option value="$PROJECT_DIR$/src/info/ishared/android/chakaifang/MainActivity.java" />
       </list>
     </option>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="808" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -301,6 +297,68 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chakaifang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chakaifang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chakaifang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chakaifang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chakaifang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chakaifang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chakaifang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chakaifang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chakaifang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -333,6 +391,7 @@
     <property name="ExportedModule" value="chakaifang" />
     <property name="ExportedApkPath" value="F:\gitworkspace\chakaifang\chakaifang.apk" />
     <property name="AndroidRunProguardForReleaseBuild" value="false" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="GNS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -369,6 +428,9 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -413,6 +475,9 @@
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -469,6 +534,10 @@
       <option name="screenWidth" value="0" />
       <option name="url" value="http://" />
       <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -614,6 +683,7 @@
       <workItem from="1388313174399" duration="1657000" />
       <workItem from="1388750384833" duration="185000" />
       <workItem from="1388750642483" duration="7948000" />
+      <workItem from="1388986864073" duration="5038000" />
     </task>
     <task id="LOCAL-00001" summary="layout dialog&#10;">
       <created>1388313099276</created>
@@ -635,36 +705,37 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15067000" />
+    <option name="totallyTimeSpent" value="20105000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="808" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290469" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3282123" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25751072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.325419" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290469" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32626426" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39314845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.325419" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3924581" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25755286" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32626426" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -699,6 +770,20 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/services/sgk/KaiFang007Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="0" selection-start="2398" selection-end="2398" vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="1650">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/model/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="28" selection-start="2012" selection-end="2012" vertical-scroll-proportion="0.0" vertical-offset="1500" max-vertical-offset="1890">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/ChaKaiFang.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="3" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="952">
@@ -710,16 +795,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="0" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="2737">
           <folding>
-            <element signature="e#1422#1438#0" expanded="true" />
-            <element signature="e#3102#3267#0" expanded="true" />
-            <element signature="e#3256#3257#0" expanded="true" />
-            <element signature="e#3722#3874#0" expanded="true" />
-            <element signature="e#3863#3864#0" expanded="true" />
-            <element signature="e#4817#5287#0" expanded="true" />
-            <element signature="e#5006#5022#0" expanded="true" />
-            <element signature="e#5276#5277#0" expanded="true" />
-            <element signature="e#6455#6743#0" expanded="true" />
-            <element signature="e#6732#6733#0" expanded="true" />
+            <element signature="e#1308#1316#0" expanded="true" />
+            <element signature="e#3165#3335#0" expanded="true" />
+            <element signature="e#3324#3325#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -741,9 +819,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="17544">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="17544" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
@@ -763,18 +839,20 @@
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="31" selection-start="110" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="238">
-          <folding />
+          <folding>
+            <marker date="1388987869000" expanded="true" signature="170:259" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/law_dialog.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="60" column="19" selection-start="2210" selection-end="2210" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1326">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/ChaKaiFang.java">
@@ -788,16 +866,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="0" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="935">
           <folding>
-            <element signature="e#1422#1438#0" expanded="true" />
-            <element signature="e#3102#3267#0" expanded="true" />
-            <element signature="e#3256#3257#0" expanded="true" />
-            <element signature="e#3722#3874#0" expanded="true" />
-            <element signature="e#3863#3864#0" expanded="true" />
-            <element signature="e#4817#5287#0" expanded="true" />
-            <element signature="e#5006#5022#0" expanded="true" />
-            <element signature="e#5276#5277#0" expanded="true" />
-            <element signature="e#6455#6743#0" expanded="true" />
-            <element signature="e#6732#6733#0" expanded="true" />
+            <element signature="e#1308#1316#0" expanded="true" />
+            <element signature="e#3165#3335#0" expanded="true" />
+            <element signature="e#3324#3325#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -834,18 +905,20 @@
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="31" selection-start="110" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="204">
-          <folding />
+          <folding>
+            <marker date="1388987869000" expanded="true" signature="170:259" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/law_dialog.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="60" column="19" selection-start="2210" selection-end="2210" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1326">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/ChaKaiFang.java">
@@ -859,16 +932,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="13" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="935">
           <folding>
-            <element signature="e#1422#1438#0" expanded="true" />
-            <element signature="e#3102#3267#0" expanded="true" />
-            <element signature="e#3256#3257#0" expanded="true" />
-            <element signature="e#3722#3874#0" expanded="true" />
-            <element signature="e#3863#3864#0" expanded="true" />
-            <element signature="e#4817#5287#0" expanded="true" />
-            <element signature="e#5006#5022#0" expanded="true" />
-            <element signature="e#5276#5277#0" expanded="true" />
-            <element signature="e#6455#6743#0" expanded="true" />
-            <element signature="e#6732#6733#0" expanded="true" />
+            <element signature="e#1308#1316#0" expanded="true" />
+            <element signature="e#3165#3335#0" expanded="true" />
+            <element signature="e#3324#3325#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -890,18 +956,20 @@
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="31" selection-start="110" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="204">
-          <folding />
+          <folding>
+            <marker date="1388987869000" expanded="true" signature="170:259" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/law_dialog.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="60" column="19" selection-start="2210" selection-end="2210" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1326">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/ChaKaiFang.java">
@@ -960,64 +1028,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="18387">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="18387" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/law_dialog.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="60" column="19" selection-start="2210" selection-end="2210" vertical-scroll-proportion="0.4047619" vertical-offset="901" max-vertical-offset="1569">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/user_list_view_item.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/user_list_view_item.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="35" selection-start="548" selection-end="548" vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="555">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/model/UserInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="100" column="28" selection-start="2012" selection-end="2012" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="1997">
-          <folding>
-            <element signature="e#2037#2038#0" expanded="true" />
-            <element signature="e#2075#2076#0" expanded="true" />
-            <element signature="e#2105#2106#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/services/sgk/KaiFang007Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="0" selection-start="2398" selection-end="2398" vertical-scroll-proportion="0.0" vertical-offset="701" max-vertical-offset="1943">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="33" selection-start="3033" selection-end="3033" vertical-scroll-proportion="-3.0980392" vertical-offset="998" max-vertical-offset="1773">
-          <folding>
-            <element signature="e#534#558#0" expanded="true" />
-            <element signature="e#1781#1796#0" expanded="true" />
-            <element signature="e#2199#2213#0" expanded="true" />
-            <element signature="e#2459#2475#0" expanded="true" />
-            <element signature="e#2829#2846#0" expanded="true" />
-            <element signature="e#3281#3295#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/services/SiteDataParser.java">
@@ -1034,25 +1072,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/services/sgk/KaiFang007SiteDataGetter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="39" selection-start="700" selection-end="700" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/util/AlertDialogUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="957">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="47" selection-start="386" selection-end="386" vertical-scroll-proportion="-6.12" vertical-offset="0" max-vertical-offset="575">
           <folding />
         </state>
       </provider>
@@ -1060,35 +1082,86 @@
     <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/services/sgk/SgkSiteDataGetter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="73" selection-start="1493" selection-end="1493" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1008">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="18" selection-start="498" selection-end="498" vertical-scroll-proportion="-7.2" vertical-offset="0" max-vertical-offset="903">
           <folding>
-            <element signature="e#1655#1656#0" expanded="true" />
-            <element signature="e#1695#1696#0" expanded="true" />
+            <marker date="1388987869000" expanded="true" signature="170:259" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/MainActivity.java">
+    <entry file="file://$USER_HOME$/SDK/android-sdk-macosx/platforms/android-17/data/res/layout/select_dialog_item.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="31" selection-start="4530" selection-end="4530" vertical-scroll-proportion="0.0" vertical-offset="1676" max-vertical-offset="3439">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1201">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="0" selection-start="3933" selection-end="3933" vertical-scroll-proportion="-3.75" vertical-offset="1125" max-vertical-offset="1855">
           <folding>
-            <element signature="e#1422#1438#0" expanded="true" />
-            <element signature="e#3102#3267#0" expanded="true" />
-            <element signature="e#3256#3257#0" expanded="true" />
-            <element signature="e#3722#3874#0" expanded="true" />
-            <element signature="e#3863#3864#0" expanded="true" />
-            <element signature="e#4817#5287#0" expanded="true" />
-            <element signature="e#5006#5022#0" expanded="true" />
-            <element signature="e#5276#5277#0" expanded="true" />
-            <element signature="e#6455#6743#0" expanded="true" />
-            <element signature="e#6732#6733#0" expanded="true" />
+            <element signature="e#534#558#0" expanded="true" />
+            <element signature="e#1781#1796#0" expanded="true" />
+            <element signature="e#2199#2213#0" expanded="true" />
+            <element signature="e#2459#2475#0" expanded="true" />
+            <element signature="e#3408#3425#0" expanded="true" />
+            <element signature="e#3861#3875#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/services/sgk/KaiFang007Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="0" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1817">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="38" selection-start="834" selection-end="834" vertical-scroll-proportion="0.48445597" vertical-offset="0" max-vertical-offset="998">
+        <state line="41" column="0" selection-start="1380" selection-end="1380" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="947">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/util/DataMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="27" selection-start="2624" selection-end="2624" vertical-scroll-proportion="-10.481482" vertical-offset="754" max-vertical-offset="1796">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#314#329#0" expanded="true" />
+            <element signature="e#388#396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/services/sgk/KaiFang007SiteDataGetter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="59" selection-start="1955" selection-end="1955" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1453">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/ishared/android/chakaifang/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="476" selection-end="476" vertical-scroll-proportion="0.33333334" vertical-offset="74" max-vertical-offset="3783">
+          <folding>
+            <element signature="e#1308#1316#0" expanded="true" />
+            <element signature="e#3165#3335#0" expanded="true" />
+            <element signature="e#3324#3325#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

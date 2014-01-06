@@ -49,6 +49,7 @@ public class KaiFang007SiteDataGetter implements SiteDataGetter {
         NameValuePair[] param = {
                 new NameValuePair("keyword", queryKeyMap.get("keyword")),
                 new NameValuePair("page", queryKeyMap.get("page")),
+                new NameValuePair("dq", queryKeyMap.get("dq")),
                 new NameValuePair("xb", queryKeyMap.get("xb"))
         };
         post.setRequestBody(param);

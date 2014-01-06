@@ -54,11 +54,24 @@
                 android:layout_height="wrap_content"
                 android:text="@string/female"
                 android:id="@+id/female_checkbox"/>
+        <!--<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"-->
+        <!--android:text="@string/area" android:textColor="@android:color/white"-->
+        <!--/>-->
+        <Spinner
+                android:id="@+id/area_dropdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                >
+        </Spinner>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
         <Button
                 android:id="@+id/preview__btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
                 android:layout_marginLeft="20dp"
                 android:text="@string/preview"
                 android:textColor="@android:color/white"
@@ -70,13 +83,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
-                android:layout_marginLeft="3dp"
+                android:layout_marginLeft="30dp"
                 android:text="@string/next"
                 android:textColor="@android:color/white"
-
                 android:background="@drawable/button_style"
                 />
     </LinearLayout>
+
     <ListView
             android:id="@+id/query_data_list_view"
             android:layout_width="fill_parent"
